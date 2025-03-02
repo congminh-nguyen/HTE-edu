@@ -1,0 +1,35 @@
+name: kenya_edu
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+ # defaults
+  - python>=3.11
+  - pip
+  - pre-commit
+  - pytest>=6
+  - pytest-cov
+  - setuptools-scm
+  # data
+  - pandas
+  - numpy
+  - dask-ml
+  - yaml
+  # interactive
+  - ipykernel
+  - jupyterlab
+  # plots
+  - matplotlib
+  - seaborn
+  # ml
+  - glum
+  - lightgbm
+  - scikit-learn
+  - shap
+  - dalex
+  - econml
+  # additional dependencies from file context
+  - pathlib
+  - typing
+  - scipy
+  - statsmodels
